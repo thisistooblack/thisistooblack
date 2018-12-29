@@ -1,0 +1,3 @@
+#!/bin/sh
+echo '+ echo "export PATH=$PATH:~/.blackrepo/bin" >> ~/.bashrc'
+echo "export PATH=$PATH:~/.blackrepo/bin" >> ~/.bashrc

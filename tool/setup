@@ -5,4 +5,5 @@ mkdir ~/.blackrepo/bin
 mv bin black
 chmod +x black
 cp black ~/.blackrepo/bin
-echo "Done! Use ThisisTooBlacktool with ./black or ~/.blackrepo/black";
+echo "Done! Use ThisisTooBlacktool with ./black or ~/.blackrepo/bin/black";
+echo "Setup your BASH path using https://tooblack.ml/tool/addtopath_bash script";
