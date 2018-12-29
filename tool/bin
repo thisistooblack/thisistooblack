@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+function ver() {
+    this.version = "0.0.0";
+    this.codename = "Pre-Alpha";
+    this.info = "TooBlackRepoTool: " + this.version + " " + this.codename;
+}
+let revision = new ver();
+console.log(revision.info);
