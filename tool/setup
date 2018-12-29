@@ -1,0 +1,5 @@
+#!/bin/sh
+curl -O "https://tooblack.ml/tool/bin"
+mv bin black
+chmod +x black
+echo "Done! Use ThisisTooBlacktool with ./black";
