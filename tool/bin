@@ -1,8 +1,17 @@
 #!/usr/bin/env node
 function ver() {
-    this.version = "0.0.0";
+    this.version = "0.0.01";
     this.codename = "Pre-Alpha";
+    this.art = () => {
+        console.log("     ______   ______     ______        ______     __         ______     ______     __  __    \n")
+        console.log("    /\__  _\ /\  __ \   /\  __ \      /\  == \   /\ \       /\  __ \   /\  ___\   /\ \/ /    \n")
+        console.log('    \/_/\ \/ \ \ \/\ \  \ \ \/\ \     \ \  __<   \ \ \____  \ \  __ \  \ \ \____  \ \  _" -. \n')
+        console.log("       \ \_\  \ \_____\  \ \_____\     \ \_____\  \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ \_\ \n")
+        console.log("        \/_/   \/_____/   \/_____/      \/_____/   \/_____/   \/_/\/_/   \/_____/   \/_/\/_/ \n")
+        console.log("                                                                                             \n")
+    };
     this.info = "TooBlackRepoTool: " + this.version + " " + this.codename;
 }
 let revision = new ver();
-console.log(revision.info);
+console.log(revision.info, "\n");
+revision.art();
