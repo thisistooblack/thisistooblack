@@ -1,7 +1,8 @@
 #!/bin/sh
 curl -O "https://tooblack.ml/tool/bin"
 mkdir ~/.blackrepo
+mkdir ~/.blackrepo/bin
 mv bin black
 chmod +x black
-cp black ~/.blackrepo
+cp black ~/.blackrepo/bin
 echo "Done! Use ThisisTooBlacktool with ./black or ~/.blackrepo/black";

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Removing toblack from system..."
+rm -Rfv ~/.blackrepo
+rm black
