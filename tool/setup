@@ -1,11 +1,11 @@
 #!/bin/sh
+echo "+ git clone https://github.com/thisistooblack/thisistooblack.git ~/.blackrepo/bin"
+git clone https://github.com/thisistooblack/thisistooblack.git ~/.blackrepo/bin
 curl -O "https://tooblack.ml/tool/bin"
 mkdir ~/.blackrepo
 mkdir ~/.blackrepo/bin
 mv bin black
 chmod +x black
 cp black ~/.blackrepo/bin
-echo "+ git clone https://github.com/thisistooblack/thisistooblack.git ~/.blackrepo/bin"
-git clone https://github.com/thisistooblack/thisistooblack.git ~/.blackrepo/bin
 echo "Done! Use ThisisTooBlacktool with ./black or ~/.blackrepo/bin/black"
 echo "Setup your BASH path using https://tooblack.ml/tool/addtopath_bash script"
